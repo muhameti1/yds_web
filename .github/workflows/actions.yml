@@ -26,4 +26,4 @@ jobs:
           server: ${{ secrets.ftp_server }}
           username: ${{ secrets.ftp_name }}
           password: ${{ secrets.ftp_password }}
-          server-dir: public_html/staging.yourdesignside.com
+          server-dir: public_html/staging.yourdesignside.com/
