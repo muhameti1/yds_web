@@ -22,7 +22,7 @@ export default {
     async fetchTodos() {
       try {
         const response = await fetch(
-          "http://localhost/php-backend/api/todos.php"
+          "https://staging.yourdesignside.com/backend/api.php"
         );
         const data = await response.json();
         this.todos = data;
