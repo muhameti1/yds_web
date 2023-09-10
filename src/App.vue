@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>To-Do List</h1>
+    <h1 class="text-3xl font-bold underline">To-Do List</h1>
     <ul>
       <li v-for="todo in todos" :key="todo.id">{{ todo.task }}</li>
     </ul>
